@@ -3,7 +3,7 @@ import imghdr
 import shutil
 from pathlib import Path
 
-rootdir = 'root dir'
+rootdir = 'root dir1'
 desti = 'desti dir'
 
 for subdir, dirs, files in os.walk(rootdir):
