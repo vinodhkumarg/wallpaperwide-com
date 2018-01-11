@@ -3,8 +3,8 @@ import imghdr
 import shutil
 from pathlib import Path
 
-rootdir = 'C:/Users/PC/PycharmProjects/google-images-download'
-desti = 'C:/Vinod/Wallpapers/'
+rootdir = 'root dir'
+desti = 'desti dir'
 
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
